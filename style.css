@@ -1,0 +1,103 @@
+body {
+    font-family: arial;
+    overflow-x: hidden;
+}
+.nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.7s;
+}
+.nav a {
+    display: block;
+    padding: 20px 30px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #ccc;
+}
+.nav a:hover{
+    color: black;
+    background-color: white;
+    transition: 0.4s;
+    border: 2px solid black;
+}
+.nav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+.nav img{
+    width: 100px;
+    height: 100px;
+    margin-left: 60px;
+    border-radius: 50%;
+}
+.slide a {
+    color: black;
+    font-size: 40px;
+}
+#content {
+    padding:20px;
+    transition: margin 0.7s;
+    overflow: hidden;
+    width: 100%;
+}
+/* sidebar */
+.header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    margin: -10px;
+}
+.sectionrob{
+    text-align: center;
+    margin: 1em;
+}
+.wrap {
+    padding-bottom: 2.5em;
+}
+.container{
+    position: relative;
+    min-height: 60px;
+    background-color: rgba(120, 230, 250, 0.4);
+    color: black;
+    height: 200px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+    border-radius:2% ;
+    border: 2px solid black;
+}
+.wrap p{
+    color: black;
+    font-size: 20px;
+    font-family: cursive;
+}
+.sectionrob img{
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 500px;
+    border: 2.5px solid black;
+}
+.container-ex{
+    position: relative;
+    min-height: 60px;
+    background-color: rgba(46, 255, 57, 0.651);
+    color: black;
+    height: 250px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+    border-radius:2% ;
+    border: 2px solid black;
+}

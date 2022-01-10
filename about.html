@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Moja stran</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/10995c6f32.js" crossorigin="anonymous"></script>
+        <script>
+            function openSlideMenu(){
+                document.getElementById('menu').style.width = "250px";
+                document.getElementById('content').style.marginLeft ="250px";
+            }
+            function closeSlideMenu(){
+                document.getElementById('menu').style.width = "0px";
+                document.getElementById('content').style.marginLeft ="0px";
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <h1> O meni</h1>
+            </div>
+            <section class="sectionrob">
+                <img src="slike/popup.png">
+                <div class="container">
+                    <div class="wrap">
+                        <p>
+                            Pozdravljeni, <br>
+                            Moje ime je Matevž Birk, živim v okolici Ljubljane in vidim svojo prihodnost v programeranju spletnih strani, oziroma frontend.
+                            Rad bi se naučil čim več, saj bi rad postal samostojni oblikovalec spletnih strani in v delal, kar mi je všeč. To spletno strani,
+                            sem naredil v namen da pokažem, da nekaj že znam in da sem se pripravljen učiti od najboljših.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <div id="content">
+
+            <span class="slide">
+                <a href="#" onclick="openSlideMenu()">
+                    <i class="fas fa-angle-double-right"></i>
+                </a>
+            </span>
+            <div id="menu" class="nav">
+                <a href="#" class="close" onclick= "closeSlideMenu()">
+                    <i class="fas fa-times"></i>
+                </a>
+                <img src="slike/popup.png">
+                <a href="index.html"> <i class="fas fa-home"></i> Moji podatki</a>
+                <a href="about.html"> <i class="fas fa-male"></i> O meni</a>
+                <a href="school.html"> <i class="fas fa-graduation-cap"></i> Šola</a>
+                <a href="experience.html"> <i class="fas fa-envelope-open-text"></i> Izkušnje</a>
+                <a href="goals.html"> <i class="fas fa-bullseye"></i> Cilji</a>
+            </div>
+        </div>
+    </body>
+</html>
