@@ -1,6 +1,7 @@
 body {
     font-family: arial;
     overflow-x: hidden;
+    font-size: 20px;
 }
 .nav {
     height: 100%;
@@ -93,8 +94,41 @@ body {
     position: relative;
     min-height: 60px;
     background-color: rgba(46, 255, 57, 0.651);
-    color: black;
     height: 250px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+    border-radius:2% ;
+    border: 2px solid black;
+}
+.container-about{
+    position: relative;
+    min-height: 60px;
+    background-color: rgba(15, 99, 255, 0.603);
+    height: 250px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+    border-radius:2% ;
+    border: 2px solid black;
+}
+.container-goals{
+    position: relative;
+    min-height: 60px;
+    background-color: rgba(255, 46, 238, 0.651);
+    height: 150px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+    border-radius:2% ;
+    border: 2px solid black;
+}
+
+.container-school{
+    position: relative;
+    min-height: 60px;
+    background-color: rgba(248, 7, 7, 0.555);
+    height: 150px;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 50px;
