@@ -15,8 +15,6 @@ body {
     padding-top: 60px;
     transition: 0.7s;
 }
-
-
 .nav a {
     display: block;
     padding: 20px 30px;
@@ -25,7 +23,6 @@ body {
     color: #ccc;
 }
 .nav a:hover{
-    border-radius: 50%;
     color: black;
     background-color: white;
     transition: 0.5s;
@@ -49,33 +46,30 @@ body {
 .slide a {
     color: white;
     font-size: 40px;
+    position: fixed;
+    overflow: hidden;
 }
 #content1 {
     padding: 20px;
     transition: margin 0.7s;
-    overflow: hidden;
     width: 100%;
     margin-top: -1175px;
 }
 #content3 {
     padding: 20px;
     transition: margin 0.7s;
-    overflow: hidden;
     width: 100%;
     margin-top: -630px;
 }
 #content2 {
     padding: 20px;
     transition: margin 0.7s;
-    overflow: hidden;
     width: 100%;
     margin-top: -790px;
 }
 #content {
     padding: 20px;
     transition: margin 0.7s;
-    overflow: hidden;
-    width: 100%;
     margin-top: -740px;
 }
 /* sidebar */
@@ -92,7 +86,7 @@ body {
     margin: 1em;
 }
 .wrap {
-    padding-bottom: 2.5em;
+    padding-bottom: 200px;
 }
 .container{
     position: relative;
